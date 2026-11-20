@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Данные — в git не попадают (объём в гигабайтах)
+data/
+*.zip
+*.csv.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX: артефакты сборки курсовой
+coursework/*.aux
+coursework/*.bbl
+coursework/*.blg
+coursework/*.fdb_latexmk
+coursework/*.fls
+coursework/*.log
+coursework/*.out
+coursework/*.toc
+coursework/*.xdv
+coursework/*.synctex.gz
+
+# Служебное
+.DS_Store
